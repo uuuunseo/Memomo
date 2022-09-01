@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D00C10EA28BCF5D200EC2C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C10E928BCF5D200EC2C6D /* AppDelegate.swift */; };
 		D00C10EC28BCF5D200EC2C6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C10EB28BCF5D200EC2C6D /* SceneDelegate.swift */; };
-		D00C10EE28BCF5D200EC2C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C10ED28BCF5D200EC2C6D /* ViewController.swift */; };
 		D00C10F128BCF5D200EC2C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00C10EF28BCF5D200EC2C6D /* Main.storyboard */; };
 		D00C10F428BCF5D200EC2C6D /* Memomo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D00C10F228BCF5D200EC2C6D /* Memomo.xcdatamodeld */; };
 		D00C10F628BCF5D400EC2C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00C10F528BCF5D400EC2C6D /* Assets.xcassets */; };
@@ -17,6 +16,11 @@
 		D00C110428BCF5D400EC2C6D /* MemomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C110328BCF5D400EC2C6D /* MemomoTests.swift */; };
 		D00C110E28BCF5D400EC2C6D /* MemomoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C110D28BCF5D400EC2C6D /* MemomoUITests.swift */; };
 		D00C111028BCF5D400EC2C6D /* MemomoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C110F28BCF5D400EC2C6D /* MemomoUITestsLaunchTests.swift */; };
+		D00C111E28BD063200EC2C6D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C111D28BD063200EC2C6D /* Model.swift */; };
+		D00C112028BD08EA00EC2C6D /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C111F28BD08EA00EC2C6D /* MemoListTableViewController.swift */; };
+		D00C112228BE2D3F00EC2C6D /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C112128BE2D3F00EC2C6D /* ComposeViewController.swift */; };
+		D00C112428BE51E100EC2C6D /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C112328BE51E100EC2C6D /* UIViewController+Alert.swift */; };
+		D00C112628BFA32A00EC2C6D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C112528BFA32A00EC2C6D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		D00C10E628BCF5D200EC2C6D /* Memomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00C10E928BCF5D200EC2C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D00C10EB28BCF5D200EC2C6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D00C10ED28BCF5D200EC2C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D00C10F028BCF5D200EC2C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D00C10F328BCF5D200EC2C6D /* Memomo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memomo.xcdatamodel; sourceTree = "<group>"; };
 		D00C10F528BCF5D400EC2C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		D00C110928BCF5D400EC2C6D /* MemomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00C110D28BCF5D400EC2C6D /* MemomoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemomoUITests.swift; sourceTree = "<group>"; };
 		D00C110F28BCF5D400EC2C6D /* MemomoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemomoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D00C111D28BD063200EC2C6D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D00C111F28BD08EA00EC2C6D /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		D00C112128BE2D3F00EC2C6D /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		D00C112328BE51E100EC2C6D /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		D00C112528BFA32A00EC2C6D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +109,18 @@
 		D00C10E828BCF5D200EC2C6D /* Memomo */ = {
 			isa = PBXGroup;
 			children = (
+				D00C111C28BD05FA00EC2C6D /* Model */,
 				D00C10E928BCF5D200EC2C6D /* AppDelegate.swift */,
 				D00C10EB28BCF5D200EC2C6D /* SceneDelegate.swift */,
-				D00C10ED28BCF5D200EC2C6D /* ViewController.swift */,
 				D00C10EF28BCF5D200EC2C6D /* Main.storyboard */,
 				D00C10F528BCF5D400EC2C6D /* Assets.xcassets */,
 				D00C10F728BCF5D400EC2C6D /* LaunchScreen.storyboard */,
 				D00C10FA28BCF5D400EC2C6D /* Info.plist */,
 				D00C10F228BCF5D200EC2C6D /* Memomo.xcdatamodeld */,
+				D00C111F28BD08EA00EC2C6D /* MemoListTableViewController.swift */,
+				D00C112128BE2D3F00EC2C6D /* ComposeViewController.swift */,
+				D00C112328BE51E100EC2C6D /* UIViewController+Alert.swift */,
+				D00C112528BFA32A00EC2C6D /* DetailViewController.swift */,
 			);
 			path = Memomo;
 			sourceTree = "<group>";
@@ -128,6 +140,14 @@
 				D00C110F28BCF5D400EC2C6D /* MemomoUITestsLaunchTests.swift */,
 			);
 			path = MemomoUITests;
+			sourceTree = "<group>";
+		};
+		D00C111C28BD05FA00EC2C6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D00C111D28BD063200EC2C6D /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D00C10EE28BCF5D200EC2C6D /* ViewController.swift in Sources */,
 				D00C10F428BCF5D200EC2C6D /* Memomo.xcdatamodeld in Sources */,
+				D00C112628BFA32A00EC2C6D /* DetailViewController.swift in Sources */,
 				D00C10EA28BCF5D200EC2C6D /* AppDelegate.swift in Sources */,
+				D00C112028BD08EA00EC2C6D /* MemoListTableViewController.swift in Sources */,
+				D00C112228BE2D3F00EC2C6D /* ComposeViewController.swift in Sources */,
 				D00C10EC28BCF5D200EC2C6D /* SceneDelegate.swift in Sources */,
+				D00C111E28BD063200EC2C6D /* Model.swift in Sources */,
+				D00C112428BE51E100EC2C6D /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +473,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +502,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
