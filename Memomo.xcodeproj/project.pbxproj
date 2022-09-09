@@ -21,6 +21,7 @@
 		D00C112228BE2D3F00EC2C6D /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C112128BE2D3F00EC2C6D /* ComposeViewController.swift */; };
 		D00C112428BE51E100EC2C6D /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C112328BE51E100EC2C6D /* UIViewController+Alert.swift */; };
 		D00C112628BFA32A00EC2C6D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C112528BFA32A00EC2C6D /* DetailViewController.swift */; };
+		D00C112928C8E06B00EC2C6D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00C112828C8E06B00EC2C6D /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		D00C112128BE2D3F00EC2C6D /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		D00C112328BE51E100EC2C6D /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		D00C112528BFA32A00EC2C6D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D00C112828C8E06B00EC2C6D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		D00C10E828BCF5D200EC2C6D /* Memomo */ = {
 			isa = PBXGroup;
 			children = (
+				D00C112728C8E04C00EC2C6D /* Data */,
 				D00C111C28BD05FA00EC2C6D /* Model */,
 				D00C10E928BCF5D200EC2C6D /* AppDelegate.swift */,
 				D00C10EB28BCF5D200EC2C6D /* SceneDelegate.swift */,
@@ -148,6 +151,14 @@
 				D00C111D28BD063200EC2C6D /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D00C112728C8E04C00EC2C6D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D00C112828C8E06B00EC2C6D /* DataManager.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 				D00C112228BE2D3F00EC2C6D /* ComposeViewController.swift in Sources */,
 				D00C10EC28BCF5D200EC2C6D /* SceneDelegate.swift in Sources */,
 				D00C111E28BD063200EC2C6D /* Model.swift in Sources */,
+				D00C112928C8E06B00EC2C6D /* DataManager.swift in Sources */,
 				D00C112428BE51E100EC2C6D /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
